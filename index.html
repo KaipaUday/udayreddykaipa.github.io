@@ -1282,15 +1282,6 @@ $('#wrapper').easytabs({
 
 // Instagram feed setup
 
-var instaFeed = new Instafeed({
-        get: 'user',
-        userId: '8622487563',
-        accessToken: '8622487563.239aaa2.9a0babde2b4247bfbcaf2fe06a55622e',
-        resolution :'standard_resolution',
-		limit: 5,
-		template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
-    });
-instaFeed.run();
 
 // Google map location
 
@@ -1318,8 +1309,8 @@ $('#wrapper').bind('easytabs:after', function() {
 		        }
 		      ],
 
-		       lat = -33.867487,
-		       lng = 151.20699,
+		       lat = 17.3850° N, 
+		       lng = 78.4867° E,
 
 			  customMap = new google.maps.StyledMapType(styles,
 	          {name: 'Styled Map'}),
