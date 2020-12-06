@@ -824,7 +824,7 @@ Greetings, Durk Jan.” </blockquote>
 						
 						
 							<!--Blog Tab-->
-						<
+						
 						<!--End blog tab-->
 						
 						
@@ -1103,17 +1103,6 @@ $('#wrapper').easytabs({
 
 });
 
-// Instagram feed setup
-
-var instaFeed = new Instafeed({
-        get: 'user',
-        userId: '8622487563',
-        accessToken: '8622487563.239aaa2.9a0babde2b4247bfbcaf2fe06a55622e',
-        resolution :'standard_resolution',
-		limit: 5,
-		template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
-    });
-instaFeed.run();
 
 // Google map location
 
@@ -1141,15 +1130,15 @@ $('#wrapper').bind('easytabs:after', function() {
 		        }
 		      ],
 
-		       lat = -33.867487,
-		       lng = 151.20699,
+		       lat = 17.357206107496474,
+		       lng =78.3881893298408,
 
 			  customMap = new google.maps.StyledMapType(styles,
 	          {name: 'Styled Map'}),
 
 
 	      mapOptions = {
-	          zoom: 14,
+	          zoom: 5,
 			scrollwheel: false,
 			disableDefaultUI: true,
 	          center: new google.maps.LatLng( lat, lng ),
